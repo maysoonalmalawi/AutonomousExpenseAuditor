@@ -76,25 +76,12 @@ Place all receipt images (`.jpg` or `.jpeg`) inside a `receipts/` folder in the 
 python main.py
 ```
 
-### Sample Output
+### Output Example
 
-```
-[Batch Engine] Found 2 files. Starting execution...
-[Processing] Ingesting file: receipt_3.jpg
-[Processing] Ingesting file: receipt_4.jpg
-  ✅ receipt_3.jpg successfully extracted.
-  ✅ receipt_4.jpg successfully extracted.
 
-============================================================================================================
-                         ENTERPRISE COMPLIANCE AUDIT OVERVIEW SUMMARY
-============================================================================================================
-  FILE NAME       | MERCHANT           | CATEGORY       | AMOUNT (SAR)   | COMPLIANT | ROUTING TRACK
-------------------------------------------------------------------------------------------------------------
-  receipt_3.jpg   | Jarir Bookstore    | Office Supplie | 2,029.00 SAR   | NO        | MANAGER_REVIEW
-  receipt_4.jpg   | MODERN market      | Meals          | 69.60 SAR      | YES       | AUTO_APPROVE
-============================================================================================================
-Processing finished in 19.72s.
-```
+![Output Example](assets/output_example_1.png)
+![Output Example](assets/output_example_2.png)
+
 
 ---
 
